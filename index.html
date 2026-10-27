@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Кофейня «Кофейный котик» | Санкт-Петербург</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">🐾</span>
+                <span class="logo-text">Кофейный котик</span>
+            </a>
+            <nav class="nav">
+                <a href="#about" class="nav-link">О нас</a>
+                <a href="#menu" class="nav-link">Меню</a>
+                <a href="#promos" class="nav-link">Акции</a>
+                <a href="#booking" class="nav-link">Бронирование</a>
+                <a href="#contacts" class="nav-link">Контакты</a>
+            </nav>
+            <a href="#booking" class="btn btn-primary">Забронировать</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="badge">Уютная кофейня в Санкт-Петербурге</span>
+                    <h1 class="hero-title">Мурчим от счастья с каждой чашкой</h1>
+                    <p class="hero-desc">Авторский спешелти-кофе, свежие десерты и общество самых добрых приютских котиков. Проведите время в атмосфере тепла и спокойствия.</p>
+                    <div class="hero-actions">
+                        <a href="#menu" class="btn btn-primary">Посмотреть меню</a>
+                        <a href="#about" class="btn btn-secondary">Узнать больше</a>
+                    </div>
+                </div>
+                <div class="hero-image-wrapper">
+                    <img src="./images/0_interior_coffee.jpg" alt="Интерьер кофейни Кофейный котик" class="hero-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">О нашей кофейне</h2>
+                    <p class="section-subtitle">Место, куда хочется возвращаться снова и снова</p>
+                </div>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-icon">☕</div>
+                        <h3>Спешелти зерно</h3>
+                        <p>100% арабика свежей обжарки от лучших обжарщиков Петербурга.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">🐱</div>
+                        <h3>12 пушистых котиков</h3>
+                        <p>Все котики привиты, социализированы и ищут любящий дом.</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon">📚</div>
+                        <h3>Зона коворкинга</h3>
+                        <p>Быстрый Wi-Fi, розетки у каждого стола и тихая рабочая атмосфера.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Фирменное меню</h2>
+                    <p class="section-subtitle">Авторские напитки от наших бариста</p>
+                </div>
+                <div class="menu-grid">
+                    <div class="menu-card">
+                        <div class="menu-img-wrap">
+                            <img src="./images/1_cappuccino_classic.jpg" alt="Капучино Пушистик" class="menu-img">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3 class="menu-card-title">Капучино «Пушистик»</h3>
+                            <p class="menu-card-desc">Классический эспрессо с шелковистой молочной пенкой и щепоткой корицы.</p>
+                            <div class="menu-card-footer">
+                                <span class="price">260 ₽</span>
+                                <button class="btn btn-sm">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="menu-img-wrap">
+                            <img src="./images/2_raf_caramel.jpg" alt="Карамельный Раф" class="menu-img">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3 class="menu-card-title">Карамельный Раф</h3>
+                            <p class="menu-card-desc">Эспрессо со взбитыми сливками, морской солью и домашней карамелью.</p>
+                            <div class="menu-card-footer">
+                                <span class="price">320 ₽</span>
+                                <button class="btn btn-sm">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="menu-img-wrap">
+                            <img src="./images/3_latte_art.jpg" alt="Матча Латте" class="menu-img">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3 class="menu-card-title">Матча Латте с лапкой</h3>
+                            <p class="menu-card-desc">Японский церемониальный зеленый чай с кокосовым молоком и рисунком лапки.</p>
+                            <div class="menu-card-footer">
+                                <span class="price">310 ₽</span>
+                                <button class="btn btn-sm">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-card">
+                        <div class="menu-img-wrap">
+                            <img src="./images/4_hot_chocolate.jpg" alt="Горячий шоколад Барсик" class="menu-img">
+                        </div>
+                        <div class="menu-card-body">
+                            <h3 class="menu-card-title">Горячий шоколад «Барсик»</h3>
+                            <p class="menu-card-desc">Бельгийский темный шоколад с нежным маршмеллоу в форме кошачьих ушек.</p>
+                            <div class="menu-card-footer">
+                                <span class="price">290 ₽</span>
+                                <button class="btn btn-sm">Заказать</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="booking" class="booking section">
+            <div class="container">
+                <div class="booking-box">
+                    <h2 class="section-title">Забронировать столик</h2>
+                    <p class="section-subtitle">Забронируйте визит онлайн и получите 10% скидку на первый заказ</p>
+                    <form class="booking-form" id="bookingForm">
+                        <input type="text" placeholder="Ваше имя" required class="form-input">
+                        <input type="tel" placeholder="Телефон" required class="form-input">
+                        <input type="date" required class="form-input">
+                        <input type="time" required class="form-input">
+                        <button type="submit" class="btn btn-primary btn-block">Подтвердить бронь</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacts" class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <div class="logo">
+                    <span class="logo-icon">🐾</span>
+                    <span class="logo-text">Кофейный котик</span>
+                </div>
+                <p>Санкт-Петербург, Большая Морская ул., д. 67</p>
+                <p>Ежедневно: 09:00 — 22:00</p>
+            </div>
+            <div class="footer-col">
+                <p>© 2026 Кофейня «Кофейный котик». Все права защищены.</p>
+                <p>Студент ГУАП, гр. 4618 Шакиров М. Р.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
