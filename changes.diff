@@ -1,0 +1,16 @@
+diff --git a/style.css b/style.css
+index 5e259c0..403cf5e 100644
+--- a/style.css
++++ b/style.css
+@@ -441,10 +441,11 @@ img {
+ 
+ .car-img {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
++    border-radius: 12px;
+     transition: transform 0.5s ease;
+ }
+ 
+ .car-card:hover .car-img {
+     transform: scale(1.06);
