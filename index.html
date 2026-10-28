@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AURUM DRIVE | Премиальный каршеринг и аренда спорткаров в Санкт-Петербурге</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <span class="logo-badge">AURUM</span>
+                <span class="logo-text">DRIVE</span>
+            </a>
+            <nav class="nav" id="navMenu" aria-label="Основная навигация">
+                <a href="#about" class="nav-link">Преимущества</a>
+                <a href="#fleet" class="nav-link">Автопарк</a>
+                <a href="#tariffs" class="nav-link">Тарифы</a>
+                <a href="#booking" class="nav-link">Бронирование</a>
+                <a href="#contacts" class="nav-link">Контакты</a>
+                <a href="#booking" class="btn btn-gold nav-cta-link">Забронировать</a>
+            </nav>
+            <div class="header-actions">
+                <a href="#booking" class="btn btn-gold header-cta">Забронировать</a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="navMenu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        Санкт-Петербург • Премиальный автопарк 2025–2026
+                    </div>
+                    <h1 class="hero-title">Эмоции в чистом виде: аренда спорткаров без оклейки</h1>
+                    <p class="hero-desc">Флагманские суперкары и представительские седаны в поминутный и посуточный каршеринг. Подача к аэропорту Пулково и лучшим отелям Петербурга за 30 минут. КАСКО без франшизы.</p>
+                    <div class="hero-actions">
+                        <a href="#fleet" class="btn btn-gold btn-lg">Выбрать спорткар</a>
+                        <a href="#tariffs" class="btn btn-outline btn-lg">Посмотреть тарифы</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <span class="stat-num">50+</span>
+                            <span class="stat-label">Автомобилей в парке</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">30 мин</span>
+                            <span class="stat-label">Среднее время подачи</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-num">0 ₽</span>
+                            <span class="stat-label">Франшиза по КАСКО</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-img-card">
+                        <img src="./images/0_hero_fleet.jpg" alt="Суперкары AURUM DRIVE в Санкт-Петербурге" class="hero-img">
+                        <div class="hero-card-overlay">
+                            <span class="overlay-tag">Флагман сервиса</span>
+                            <span class="overlay-name">Porsche & Mercedes-AMG Fleet</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About / Features -->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Преимущества</span>
+                    <h2 class="section-title">Сервис закрытого премиум-уровня</h2>
+                    <p class="section-subtitle">Мы создали каршеринг, который дарит статус и эстетику владения суперкаром без обременений</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">💎</div>
+                        <h3 class="feature-title">Строго без оклейки</h3>
+                        <p class="feature-desc">Никаких логотипов каршеринга и рекламных наклеек. Автомобиль выглядит как ваш личный транспорт на любой встрече.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3 class="feature-title">Полное КАСКО 0 ₽</h3>
+                        <p class="feature-desc">Все риски застрахованы. Никаких скрытых штрафов и залогов при соблюдении базовых правил сервиса.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3 class="feature-title">Подача за 30 минут</h3>
+                        <p class="feature-desc">Доставим чистый заправленный автомобиль к аэропорту Пулково, вокзалу или в любую точку Санкт-Петербурга.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3 class="feature-title">Бесключевой доступ 24/7</h3>
+                        <p class="feature-desc">Быстрое онлайн-оформление за 10 минут по паспорту и правам. Открытие и управление автомобилем со смартфона.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fleet / Catalog -->
+        <section id="fleet" class="section fleet">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Наш автопарк</span>
+                    <h2 class="section-title">Суперкары и спорткары в наличии</h2>
+                    <p class="section-subtitle">Идеальное техническое состояние, максимальные комплектации и сочный выхлоп</p>
+                </div>
+                <div class="fleet-grid">
+                    <!-- Car 1 -->
+                    <div class="car-card">
+                        <div class="car-img-wrapper">
+                            <img src="./images/1_porsche_911.jpg" alt="Porsche 911 Carrera 4S" class="car-img">
+                            <span class="car-badge">Легенда трека</span>
+                        </div>
+                        <div class="car-content">
+                            <div class="car-header-row">
+                                <h3 class="car-title">Porsche 911 Carrera 4S</h3>
+                                <span class="car-category">Спорткупе</span>
+                            </div>
+                            <div class="car-specs">
+                                <div class="spec-tag"><span>450</span> л.с.</div>
+                                <div class="spec-tag"><span>3.4</span> сек до 100</div>
+                                <div class="spec-tag"><span>306</span> км/ч</div>
+                                <div class="spec-tag">Полный привод</div>
+                            </div>
+                            <p class="car-desc">Икона немецкой спортивной инженерии. Идеальный баланс шасси для белых ночей на набережных Петербурга.</p>
+                            <div class="car-pricing">
+                                <div class="price-box">
+                                    <span class="price-val">85 ₽</span>
+                                    <span class="price-unit">/ минута</span>
+                                </div>
+                                <div class="price-box">
+                                    <span class="price-val">24 900 ₽</span>
+                                    <span class="price-unit">/ сутки</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-gold btn-block select-car-btn" data-car="Porsche 911 Carrera 4S">Забронировать</button>
+                        </div>
+                    </div>
+
+                    <!-- Car 2 -->
+                    <div class="car-card">
+                        <div class="car-img-wrapper">
+                            <img src="./images/2_amg_gt.jpg" alt="Mercedes-AMG GT 63 S" class="car-img">
+                            <span class="car-badge amg">V8 Biturbo</span>
+                        </div>
+                        <div class="car-content">
+                            <div class="car-header-row">
+                                <h3 class="car-title">Mercedes-AMG GT 63 S</h3>
+                                <span class="car-category">4-Door Coupe</span>
+                            </div>
+                            <div class="car-specs">
+                                <div class="spec-tag"><span>639</span> л.с.</div>
+                                <div class="spec-tag"><span>3.2</span> сек до 100</div>
+                                <div class="spec-tag"><span>315</span> км/ч</div>
+                                <div class="spec-tag">4MATIC+ Drift</div>
+                            </div>
+                            <p class="car-desc">Безумная мощь 4.0 V8 Biturbo, спортивный выхлоп AMG Performance и роскошный салон в коже Nappa.</p>
+                            <div class="car-pricing">
+                                <div class="price-box">
+                                    <span class="price-val">95 ₽</span>
+                                    <span class="price-unit">/ минута</span>
+                                </div>
+                                <div class="price-box">
+                                    <span class="price-val">27 500 ₽</span>
+                                    <span class="price-unit">/ сутки</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-gold btn-block select-car-btn" data-car="Mercedes-AMG GT 63 S">Забронировать</button>
+                        </div>
+                    </div>
+
+                    <!-- Car 3 -->
+                    <div class="car-card">
+                        <div class="car-img-wrapper">
+                            <img src="./images/3_bmw_m8.jpg" alt="BMW M8 Gran Coupe" class="car-img">
+                            <span class="car-badge">M Power</span>
+                        </div>
+                        <div class="car-content">
+                            <div class="car-header-row">
+                                <h3 class="car-title">BMW M8 Competition</h3>
+                                <span class="car-category">Gran Coupe</span>
+                            </div>
+                            <div class="car-specs">
+                                <div class="spec-tag"><span>625</span> л.с.</div>
+                                <div class="spec-tag"><span>3.2</span> сек до 100</div>
+                                <div class="spec-tag"><span>305</span> км/ч</div>
+                                <div class="spec-tag">M xDrive</div>
+                            </div>
+                            <p class="car-desc">Флагман баварского подразделения M. Невероятная динамика в сочетании с королевским комфортом представительского класса.</p>
+                            <div class="car-pricing">
+                                <div class="price-box">
+                                    <span class="price-val">90 ₽</span>
+                                    <span class="price-unit">/ минута</span>
+                                </div>
+                                <div class="price-box">
+                                    <span class="price-val">26 000 ₽</span>
+                                    <span class="price-unit">/ сутки</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-gold btn-block select-car-btn" data-car="BMW M8 Competition">Забронировать</button>
+                        </div>
+                    </div>
+
+                    <!-- Car 4 -->
+                    <div class="car-card">
+                        <div class="car-img-wrapper">
+                            <img src="./images/4_audi_rs6.jpg" alt="Audi RS6 Avant" class="car-img">
+                            <span class="car-badge">Quattro RS</span>
+                        </div>
+                        <div class="car-content">
+                            <div class="car-header-row">
+                                <h3 class="car-title">Audi RS6 Avant Quattro</h3>
+                                <span class="car-category">Супер-универсал</span>
+                            </div>
+                            <div class="car-specs">
+                                <div class="spec-tag"><span>600</span> л.с.</div>
+                                <div class="spec-tag"><span>3.6</span> сек до 100</div>
+                                <div class="spec-tag"><span>305</span> км/ч</div>
+                                <div class="spec-tag">Керамика</div>
+                            </div>
+                            <p class="car-desc">Культовый спортивный универсал с широким мускулистым кузовом, лазерной оптикой и адаптивной пневмоподвеской.</p>
+                            <div class="car-pricing">
+                                <div class="price-box">
+                                    <span class="price-val">80 ₽</span>
+                                    <span class="price-unit">/ минута</span>
+                                </div>
+                                <div class="price-box">
+                                    <span class="price-val">23 500 ₽</span>
+                                    <span class="price-unit">/ сутки</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-gold btn-block select-car-btn" data-car="Audi RS6 Avant Quattro">Забронировать</button>
+                        </div>
+                    </div>
+
+                    <!-- Car 5 -->
+                    <div class="car-card">
+                        <div class="car-img-wrapper">
+                            <img src="./images/5_taycan_turbo.jpg" alt="Porsche Taycan Turbo S" class="car-img">
+                            <span class="car-badge electric">Электро 100%</span>
+                        </div>
+                        <div class="car-content">
+                            <div class="car-header-row">
+                                <h3 class="car-title">Porsche Taycan Turbo S</h3>
+                                <span class="car-category">EV Hypercar</span>
+                            </div>
+                            <div class="car-specs">
+                                <div class="spec-tag"><span>761</span> л.с.</div>
+                                <div class="spec-tag"><span>2.8</span> сек до 100</div>
+                                <div class="spec-tag"><span>1050</span> Нм</div>
+                                <div class="spec-tag">Overboost</div>
+                            </div>
+                            <p class="car-desc">Молниеносное ускорение в абсолютной тишине. Бесплатные зарядные станции в премиальных локациях Петербурга.</p>
+                            <div class="car-pricing">
+                                <div class="price-box">
+                                    <span class="price-val">85 ₽</span>
+                                    <span class="price-unit">/ минута</span>
+                                </div>
+                                <div class="price-box">
+                                    <span class="price-val">25 000 ₽</span>
+                                    <span class="price-unit">/ сутки</span>
+                                </div>
+                            </div>
+                            <button class="btn btn-gold btn-block select-car-btn" data-car="Porsche Taycan Turbo S">Забронировать</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tariffs Section -->
+        <section id="tariffs" class="section tariffs">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Удобные форматы</span>
+                    <h2 class="section-title">Гибкие тарифные планы</h2>
+                    <p class="section-subtitle">Выбирайте удобный формат поездки: от короткого спринта по ЗСД до уикенда в Карелии</p>
+                </div>
+                <div class="tariffs-grid">
+                    <div class="tariff-card">
+                        <div class="tariff-header">
+                            <h3>Минутный</h3>
+                            <p>Для ярких поездок по городу</p>
+                        </div>
+                        <div class="tariff-price">от 80 ₽ <span>/ мин</span></div>
+                        <ul class="tariff-list">
+                            <li>✓ Оплата за фактически пройденные минуты</li>
+                            <li>✓ Бесплатная парковка в центре СПб</li>
+                            <li>✓ Топливо включено в стоимость</li>
+                            <li>✓ 20 минут бесплатного бронирования</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-outline btn-block">Выбрать тариф</a>
+                    </div>
+
+                    <div class="tariff-card featured">
+                        <div class="tariff-badge">Популярный выбор</div>
+                        <div class="tariff-header">
+                            <h3>Дневной (6 часов)</h3>
+                            <p>Для деловых встреч и фотосессий</p>
+                        </div>
+                        <div class="tariff-price">от 15 500 ₽ <span>/ 6 ч</span></div>
+                        <ul class="tariff-list">
+                            <li>✓ Включено 120 км пробега</li>
+                            <li>✓ Подача к выбранному времени</li>
+                            <li>✓ Приоритетная линия консьерж-сервиса</li>
+                            <li>✓ Полное КАСКО без франшизы</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-gold btn-block">Выбрать тариф</a>
+                    </div>
+
+                    <div class="tariff-card">
+                        <div class="tariff-header">
+                            <h3>Суточный Grand Tour</h3>
+                            <p>Максимальная свобода на 24 часа</p>
+                        </div>
+                        <div class="tariff-price">от 23 500 ₽ <span>/ 24 ч</span></div>
+                        <ul class="tariff-list">
+                            <li>✓ Включено 250 км пробега</li>
+                            <li>✓ Выезд в Курортный район и Выборг</li>
+                            <li>✓ Мойка авто перед возвратом не требуется</li>
+                            <li>✓ Смена автомобиля на другой класс по запросу</li>
+                        </ul>
+                        <a href="#booking" class="btn btn-outline btn-block">Выбрать тариф</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Booking Section -->
+        <section id="booking" class="section booking">
+            <div class="container">
+                <div class="booking-wrapper">
+                    <div class="booking-info">
+                        <span class="section-tag">Онлайн-бронирование</span>
+                        <h2 class="booking-title">Забронируйте спорткар за 60 секунд</h2>
+                        <p class="booking-desc">Заполните форму, и наш консьерж свяжется с вами в Telegram или по телефону для подтверждения точки и времени подачи.</p>
+                        
+                        <div class="booking-perks">
+                            <div class="perk-item">
+                                <span class="perk-icon">🚗</span>
+                                <div>
+                                    <h4>Подача в любую точку СПб</h4>
+                                    <p>Пулково, отели Astoria, Wawelberg, Гранд Отель Европа</p>
+                                </div>
+                            </div>
+                            <div class="perk-item">
+                                <span class="perk-icon">📄</span>
+                                <div>
+                                    <h4>Минимум документов</h4>
+                                    <p>Паспорт и водительское удостоверение (стаж от 2 лет)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="booking-form-card">
+                        <form id="bookingForm" class="booking-form">
+                            <div class="form-group">
+                                <label for="carSelect">Выберите автомобиль</label>
+                                <select id="carSelect" class="form-control" required>
+                                    <option value="" disabled selected>Выберите спорткар из автопарка</option>
+                                    <option value="Porsche 911 Carrera 4S">Porsche 911 Carrera 4S (450 л.с.)</option>
+                                    <option value="Mercedes-AMG GT 63 S">Mercedes-AMG GT 63 S (639 л.с.)</option>
+                                    <option value="BMW M8 Competition">BMW M8 Gran Coupe Competition (625 л.с.)</option>
+                                    <option value="Audi RS6 Avant Quattro">Audi RS6 Avant Quattro (600 л.с.)</option>
+                                    <option value="Porsche Taycan Turbo S">Porsche Taycan Turbo S (761 л.с.)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="tariffSelect">Тарифный план</label>
+                                <select id="tariffSelect" class="form-control" required>
+                                    <option value="Поминутный (от 80 ₽/мин)">Поминутный (от 80 ₽/мин)</option>
+                                    <option value="Пакет 3 часа">Пакет 3 часа (60 км)</option>
+                                    <option value="Пакет 6 часов (15 500 ₽)" selected>Пакет 6 часов (120 км)</option>
+                                    <option value="Суточный Grand Tour (24 часа)">Суточный Grand Tour (250 км)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="bookingDate">Дата аренды</label>
+                                    <input type="date" id="bookingDate" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="bookingTime">Время подачи</label>
+                                    <input type="time" id="bookingTime" class="form-control" required value="14:00">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="clientName">Ваше имя</label>
+                                <input type="text" id="clientName" class="form-control" placeholder="Константин" required>
+                                <p class="form-error" id="nameError" role="alert"></p>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="clientPhone">Номер телефона</label>
+                                <input type="tel" id="clientPhone" class="form-control" placeholder="+7 (999) 000-00-00" required>
+                                <p class="form-error" id="phoneError" role="alert"></p>
+                            </div>
+
+                            <button type="submit" class="btn btn-gold btn-block btn-lg">Забронировать автомобиль</button>
+                            <p class="form-privacy">Нажимая кнопку, вы соглашаетесь с условиями сервиса и обработкой персональных данных. КАСКО включено.</p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal confirmation -->
+    <div class="modal" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Закрыть окно">&times;</button>
+            <div class="modal-icon" aria-hidden="true">
+                <svg class="checkmark" viewBox="0 0 52 52">
+                    <circle cx="26" cy="26" r="24"></circle>
+                    <path d="M14 27l8 8 16-16"></path>
+                </svg>
+            </div>
+            <h3 class="modal-title" id="modalTitle">Заявка успешно принята!</h3>
+            <p class="modal-desc" id="modalSummary">Ваш автомобиль подготовлен к бронированию. Консьерж AURUM DRIVE свяжется с вами в течение 5 минут.</p>
+            <button class="btn btn-gold btn-block" id="modalOkBtn">Отлично</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="contacts" class="footer">
+        <div class="container footer-container">
+            <div class="footer-col">
+                <a href="#" class="logo footer-logo">
+                    <span class="logo-badge">AURUM</span>
+                    <span class="logo-text">DRIVE</span>
+                </a>
+                <p class="footer-about">Премиальный каршеринг и аренда люксовых спорткаров без оклейки в Санкт-Петербурге. Безупречный статус и драйв.</p>
+                <p class="footer-contact">📍 Санкт-Петербург, Невский пр., д. 140</p>
+                <p class="footer-contact">📞 +7 (812) 777-91-11 • Круглосуточно 24/7</p>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Автопарк</h4>
+                <ul class="footer-links">
+                    <li><a href="#fleet">Porsche 911 Carrera 4S</a></li>
+                    <li><a href="#fleet">Mercedes-AMG GT 63 S</a></li>
+                    <li><a href="#fleet">BMW M8 Competition</a></li>
+                    <li><a href="#fleet">Audi RS6 Avant Quattro</a></li>
+                    <li><a href="#fleet">Porsche Taycan Turbo S</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4 class="footer-heading">Информация</h4>
+                <ul class="footer-links">
+                    <li><a href="#about">Условия аренды</a></li>
+                    <li><a href="#tariffs">Тарифные сетки</a></li>
+                    <li><a href="#booking">Страхование КАСКО</a></li>
+                    <li><a href="#contacts">Зоны завершения аренды</a></li>
+                </ul>
+            </div>
+            <div class="footer-col student-col">
+                <h4 class="footer-heading">Учебный проект</h4>
+                <p>Лабораторная работа № 4 и № 5</p>
+                <p>Дисциплина: Информатика</p>
+                <p>Кафедра № 4, ГУАП (Санкт-Петербург)</p>
+                <p class="author-tag">Студент гр. 4618: Шакиров М. Р.</p>
+                <p class="author-tag">Преподаватель: Боженко В. В.</p>
+                <p class="copy-tag">© 2026 AURUM DRIVE. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
+
