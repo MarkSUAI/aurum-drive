@@ -224,6 +224,10 @@ img {
 
 .nav-link:hover {
     color: var(--gold-light);
+}
+
+.nav-cta-link {
+    display: none;
 }
 
 .header-actions {
@@ -1203,6 +1207,8 @@ img {
     }
 
     .nav-cta-link {
+        display: inline-flex;
+        justify-content: center;
         margin-top: 10px;
         opacity: 0;
         transform: translateY(16px);
